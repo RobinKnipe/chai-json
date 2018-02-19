@@ -1,4 +1,4 @@
-# chai-json
+# chai-json [![Build Status](https://travis-ci.org/RobinKnipe/chai-json.svg?branch=master)](https://travis-ci.org/RobinKnipe/chai-json) [![Coverage Status](https://coveralls.io/repos/github/RobinKnipe/chai-json/badge.svg?branch=master)](https://coveralls.io/github/RobinKnipe/chai-json?branch=master) [![Known Vulnerabilities](https://snyk.io/test/github/robinknipe/chai-json/badge.svg?targetFile=package.json)](https://snyk.io/test/github/robinknipe/chai-json?targetFile=package.json)
 A plugin to add support for JSON formatted strings to the `chai` assertion library.
 
 ## Installation
