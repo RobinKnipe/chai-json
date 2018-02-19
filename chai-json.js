@@ -7,7 +7,7 @@ module.exports = function chaiJSON(chai) {
     let err = false;
 
     try {
-      JSON.parse(this._obj);
+      this._obj = JSON.parse(this._obj);
     } catch (e) {
       err = e;
     }
