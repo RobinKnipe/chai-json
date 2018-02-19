@@ -1,6 +1,6 @@
 {
   "name": "chai-json",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A plugin to add support for JSON formatted strings to the `chai` assertion library.",
   "main": "chai-json.js",
   "scripts": {
