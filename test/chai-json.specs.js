@@ -36,6 +36,8 @@ describe('chai-json', () => {
         expect('{a:1}').not.to.be.json;
         expect('[a:1]').not.to.be.json;
       });
+      it('should reject with the parse error', () => expect(() => expect('not json').to.be.json).to.throw(Error,
+        'expected \'not json\' to be a JSON formatted string, but got Unexpected token o in JSON at position 1'));
     });
   });
 });
